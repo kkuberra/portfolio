@@ -96,7 +96,8 @@
     align-items: center;
     text-align: center; }
     main .lg-heading {
-      align-items: center; }
+      align-items: center;
+      text-align: center; }
   ul.menu-nav, div.menu-branding {
     float: none;
     width: 100%;
