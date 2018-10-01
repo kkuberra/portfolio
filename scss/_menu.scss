@@ -26,7 +26,8 @@
 			}
 			// Line 2 -Hide
 			&:nth-child(2) {
-				opacity: 0;
+				transform: rotate(90deg) translate(-1px, -0.5px)
+				// opacity: 0;
 			}
 			// Line 3 - Rotate
 			&:nth-child(3) {
