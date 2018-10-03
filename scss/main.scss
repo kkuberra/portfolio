@@ -21,6 +21,7 @@ body {
     font-weight: normal;
     font-style: normal;
 	line-height: 1.5;
+	letter-spacing: 1px;
 }
 
 //headings
@@ -34,12 +35,12 @@ h3 {
         font-size: 2rem;
     }
 
-    // &.sm-heading {
-    //     margin-bottom: 2rem;
-    //     padding: 0.2rem 1rem;
-    //     background: (lighten
-    //     ($primary-color, 6), 0.5);
-    // }
+    &.sm-heading {
+        margin-bottom: 2rem;
+        padding: 0.2rem 1rem;
+        background: (lighten
+        ($primary-color, 6), 0.5);
+    }
 }
 
 a {
@@ -126,8 +127,8 @@ main {
 .projects {
 	display: grid;
 	grid-gap: 0.7rem;
-	grid-template-columns: repeat(3, 1fr);
-
+	grid-template-columns: repeat(4, 1fr);
+	
 	img {
 		width: 100%;
 		border: 3px #fff solid;
@@ -138,6 +139,12 @@ main {
 			@include easeOut;
 		}	
 	}
+}
+
+// Logos
+.logoHeader {
+	padding: 1.5rem 2.5rem;
+	margin-left: -1.5rem;
 }
 
 // Contact Page
