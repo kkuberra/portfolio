@@ -55,9 +55,10 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("");
+      background: url("../img/portrait.png");
       border-radius: 50%;
-      border: solid 3px #F7941D; }
+      border: solid 3px #F7941D;
+      opacity: 100; }
   .menu .nav-item {
     transform: translate3d(1100px, 0, 0);
     transition: all 0.7s ease-out; }
@@ -90,6 +91,12 @@
 
 .nav-item:nth-child(4) {
   transition-delay: 0.8s; }
+
+.nav-item:nth-child(5) {
+  transition-delay: 1s; }
+
+.nav-item:nth-child(6) {
+  transition-delay: 1.2s; }
 
 * {
   box-sizing: border-box; }
