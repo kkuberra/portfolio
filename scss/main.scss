@@ -141,6 +141,36 @@ main {
 	}
 }
 
+// Marketing
+.marketing {
+	display: grid;
+	grid-gap: 0.7rem;
+	grid-template-columns: repeat(4, 1fr);
+	padding-bottom: 3rem;
+	
+
+	img {
+		width: 100%;
+		border: 3px #fff solid;
+	}
+}
+
+// Tradeshow
+.tradeshow {
+	display: grid;
+	// padding-left: 15rem;
+	grid-gap: 0.7rem;
+	grid-template-columns: repeat(3, 1fr);
+	padding-bottom: 3rem;
+	
+
+	img {
+		width: 100%;
+		// height: auto;
+		border: 3px #fff solid;
+	}
+}
+
 // Logos
 .logoHeader {
 	padding: 1.5rem 2.5rem;
