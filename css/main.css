@@ -210,6 +210,24 @@ main {
       border-color: #F7941D;
       transition: all 0.7s ease-out; }
 
+.marketing {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 3rem; }
+  .marketing img {
+    width: 100%;
+    border: 3px #fff solid; }
+
+.tradeshow {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 3rem; }
+  .tradeshow img {
+    width: 100%;
+    border: 3px #fff solid; }
+
 .logoHeader {
   padding: 1.5rem 2.5rem;
   margin-left: -1.5rem; }
@@ -266,12 +284,20 @@ main {
   .projects {
     grid-template-columns: repeat(4, 1fr); }
   .logos {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .marketing {
+    grid-template-columns: repeat(4, 1fr); }
+  .tradeshow {
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); }
   .logos {
+    grid-template-columns: repeat(2, 1fr); }
+  .marketing {
+    grid-template-columns: repeat(2, 1fr); }
+  .tradeshow {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 768px) {
@@ -295,7 +321,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("");
+      background: url("../img/portrait_small.png");
       width: 150px;
       height: 150px; }
   .about-info {
@@ -304,6 +330,10 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   .logos {
+    grid-template-columns: repeat(1, 1fr); }
+  .marketing {
+    grid-template-columns: repeat(1, 1fr); }
+  .tradeshow {
     grid-template-columns: repeat(1, 1fr); } }
 
 @media screen and (max-width: 500px) {
@@ -312,4 +342,8 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   .logos {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .marketing {
+    grid-template-columns: 1fr; }
+  .tradeshow {
+    grid-template-columns: repeat(1, 1fr); } }
