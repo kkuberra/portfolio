@@ -147,6 +147,13 @@ main {
 	margin-left: -1.5rem;
 }
 
+.logos {
+	display: grid;
+	grid-gap: 4rem;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 5rem 5rem;
+}
+
 // Contact Page
 .boxes {
 	display: flex;
