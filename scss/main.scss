@@ -21,7 +21,7 @@ body {
     font-weight: normal;
     font-style: normal;
 	line-height: 1.5;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 //headings
@@ -91,6 +91,7 @@ main {
 	'bioimage bio bio'
 	'job1 job2 job3';
 	grid-template-columns: repeat(3, 1fr);
+	
 }
 
 .bio-image {
@@ -103,6 +104,7 @@ main {
 .bio {
 	grid-area: bio;
 	font-size: 1.5rem;
+	letter-spacing: 2px;
 }
 
 .job-1 { 
@@ -118,6 +120,7 @@ main {
 }
 
 .job {
+	
 	background: lighten($primary-color, 5);
 	padding: 0.5rem;
 	border-bottom: $secondary-color 5px solid;
@@ -127,7 +130,8 @@ main {
 .projects {
 	display: grid;
 	grid-gap: 0.7rem;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
 	
 	img {
 		width: 100%;
@@ -181,7 +185,7 @@ main {
 	display: grid;
 	grid-gap: 4rem;
 	grid-template-columns: repeat(2, 1fr);
-	padding: 5rem 5rem;
+	
 }
 
 // Contact Page

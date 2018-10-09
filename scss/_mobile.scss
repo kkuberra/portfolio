@@ -1,16 +1,24 @@
 // Widescreens
 @include mediaXl {
 	.projects {
-		grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline-start: 21rem;
+        padding-inline-end: 21rem;
 	}
 	.logos {
-		grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline-start: 19rem;
+        padding-inline-end: 19rem;
 	}
 	.marketing {
-		grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline-start: 19rem;
+        padding-inline-end: 19rem;
 	}
 	.tradeshow {
-		grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline-start: 19rem;
+        padding-inline-end: 19rem;
 	}
 }
 
@@ -20,13 +28,19 @@
 		grid-template-columns: repeat(3, 1fr);
 	}
 	.logos {
-		grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline-start: 5rem;
+        padding-inline-end: 5rem;
 	}
 	.marketing {
-		grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline-start: 5rem;
+        padding-inline-end: 5rem;
     }
     .tradeshow {
         grid-template-columns: repeat(2, 1fr);
+        padding-inline-start: 5rem;
+        padding-inline-end: 5rem;
     }
 }
 
