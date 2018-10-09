@@ -104,19 +104,27 @@ main {
 .bio {
 	grid-area: bio;
 	font-size: 1.5rem;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	font-family: 'Pathway Gothic One',
+	sans-serif;
 }
 
 .job-1 { 
 	grid-area: job1;
+	font-family: 'Pathway Gothic One',
+	sans-serif;
 }
 
 .job-2 {
 	grid-area: job2;
+	font-family: 'Pathway Gothic One',
+	sans-serif;
 }
 
 .job-3 {
 	grid-area: job3;
+	font-family: 'Pathway Gothic One',
+	sans-serif;
 }
 
 .job {

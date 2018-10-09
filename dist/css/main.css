@@ -183,16 +183,20 @@ main {
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-  letter-spacing: 2px; }
+  letter-spacing: 1px;
+  font-family: 'Pathway Gothic One', sans-serif; }
 
 .job-1 {
-  grid-area: job1; }
+  grid-area: job1;
+  font-family: 'Pathway Gothic One', sans-serif; }
 
 .job-2 {
-  grid-area: job2; }
+  grid-area: job2;
+  font-family: 'Pathway Gothic One', sans-serif; }
 
 .job-3 {
-  grid-area: job3; }
+  grid-area: job3;
+  font-family: 'Pathway Gothic One', sans-serif; }
 
 .job {
   background: #515151;
@@ -295,7 +299,7 @@ main {
     padding-inline-start: 19rem;
     padding-inline-end: 19rem; }
   .tradeshow {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding-inline-start: 19rem;
     padding-inline-end: 19rem; } }
 
@@ -311,7 +315,7 @@ main {
     padding-inline-start: 5rem;
     padding-inline-end: 5rem; }
   .tradeshow {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding-inline-start: 5rem;
     padding-inline-end: 5rem; } }
 
