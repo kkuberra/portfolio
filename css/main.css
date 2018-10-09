@@ -110,7 +110,7 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 1px; }
+  letter-spacing: 2px; }
   body#bg-img {
     background: url(../img/background_image2.jpg);
     background-attachment: fixed;
@@ -182,7 +182,8 @@ main {
 
 .bio {
   grid-area: bio;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  letter-spacing: 2px; }
 
 .job-1 {
   grid-area: job1; }
@@ -201,7 +202,8 @@ main {
 .projects {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center; }
   .projects img {
     width: 100%;
     border: 3px #fff solid; }
@@ -235,8 +237,7 @@ main {
 .logos {
   display: grid;
   grid-gap: 4rem;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 5rem 5rem; }
+  grid-template-columns: repeat(2, 1fr); }
 
 .boxes {
   display: flex;
@@ -282,23 +283,37 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline-start: 21rem;
+    padding-inline-end: 21rem; }
   .logos {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline-start: 19rem;
+    padding-inline-end: 19rem; }
   .marketing {
-    grid-template-columns: repeat(4, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline-start: 19rem;
+    padding-inline-end: 19rem; }
   .tradeshow {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(1, 1fr);
+    padding-inline-start: 19rem;
+    padding-inline-end: 19rem; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); }
   .logos {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline-start: 5rem;
+    padding-inline-end: 5rem; }
   .marketing {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline-start: 5rem;
+    padding-inline-end: 5rem; }
   .tradeshow {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(1, 1fr);
+    padding-inline-start: 5rem;
+    padding-inline-end: 5rem; } }
 
 @media screen and (max-width: 768px) {
   main {
